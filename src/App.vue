@@ -1,17 +1,19 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div id="app" >
+    <img alt="Vue logo" src="https://tr.rbxcdn.com/38e2b8adf7d7f18731c5aa4efc442f4a/420/420/Decal/Png" height="300px" >
+    <Itune />
   </div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Itune from './components/Itune'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Itune
   }
 }
 </script>
@@ -23,6 +25,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: top;
 }
+body {
+  background-color:rgb(50, 50, 50);
+  background-size: cover;
+}
+
 </style>
